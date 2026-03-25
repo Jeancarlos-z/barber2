@@ -1,8 +1,32 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --color-bg-color: #0e0e0e;
+  --color-bg-darker: #000000;
+  --color-surface: #131313;
+  --color-surface-high: #1a1919;
+  --color-surface-highest: #262626;
+  
+  --color-primary: #c1fffe;
+  --color-primary-dim: #00e6e6;
+  --color-primary-glow: rgba(0, 255, 255, 0.3);
+  
+  --color-secondary: #2ff801;
+  --color-secondary-dim: #2be800;
+  --color-secondary-glow: rgba(47, 248, 1, 0.3);
+  
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #adaaaa;
+  --color-text-accent: #2ff801;
+  
+  --color-outline: rgba(119, 117, 117, 0.15);
+  --color-error: #ff716c;
+
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+}
 
 :root {
   /* Colors - Kinetic Underground */
